@@ -1,0 +1,66 @@
+body {
+  background-color:#000000;
+  text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+hr {
+  width: 50%;
+  align-items: center;
+}
+
+div.cabecera{
+  font-size:1.5pc;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  text-align:justify;
+  width: 55%;
+}
+
+div.info-detalle{
+  background-color: #808080;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  text-align:center;
+  width: 55%;
+}
+
+div.info-detalle-item-trab{
+  padding-left: 150px;
+}
+
+.foto-perfil {
+    border-radius: 100%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: thin;
+}
+
+.lista-item-centro {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align:left;
+}
+
+.justificado{
+  text-align: justify;
+}
+
+.izquierda{
+  text-align: left;
+}
+
+.centrado{
+  text-align: center;
+}
