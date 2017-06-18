@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+  color: #ff0000;
+}
+
+marquee {
+  background-color: : #ff0000;
+  font-size: 5;
+}
+
+.alineado-izq {
+  text-align: left;
+}
+
+.alineado-cen {
+  text-align: center;
+}
