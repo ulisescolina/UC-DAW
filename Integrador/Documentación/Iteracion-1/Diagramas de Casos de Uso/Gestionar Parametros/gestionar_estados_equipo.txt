@@ -1,0 +1,7 @@
+@startuml gestionar_estados_equipo.png
+left to right direction
+:Administrador: -- (CU-37\nAlta\nEstados Equipo)
+:Administrador: -- (CU-38\nBaja\nEstados Equipo)
+:Administrador: -- (CU-39\nModificacion\nEstados Equipo)
+:Administrador: -- (CU-40\nConsultar\nEstados Equipo)
+@enduml

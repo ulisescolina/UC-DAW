@@ -1,0 +1,7 @@
+@startuml gestionar_disponibilidad_credicticia.png 
+left to right direction
+:Administrador: -- (CU-09\nAlta\nDisp. Credicticia) 
+:Administrador: -- (CU-10\nBaja\nDisp. Credicticia) 
+:Administrador: -- (CU-11\nModificacion\nDisp. Credicticia) 
+:Administrador: -- (CU-12\nConsultar\nDisp. Credicticia)
+@enduml

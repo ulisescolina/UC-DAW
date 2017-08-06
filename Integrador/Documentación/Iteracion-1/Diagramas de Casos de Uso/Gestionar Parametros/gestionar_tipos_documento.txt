@@ -1,0 +1,7 @@
+@startuml gestionar_tipos_documento.png 
+left to right direction
+:Administrador: -- (CU-29\nAlta\nTipos Documento) 
+:Administrador: -- (CU-30\nBaja\nTipos Documento) 
+:Administrador: -- (CU-31\nModificacion\nTipos Documento) 
+:Administrador: -- (CU-32\nConsultar\nTipos Documento)
+@enduml

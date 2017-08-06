@@ -1,0 +1,7 @@
+@startuml gestionar_estados_incidencia.png
+left to right direction
+:Administrador: -- (CU-41\nAlta\nEstados Incidencia)
+:Administrador: -- (CU-42\nBaja\nEstados Incidencia)
+:Administrador: -- (CU-43\nModificacion\nEstados Incidencia)
+:Administrador: -- (CU-44\nConsultar\nEstados Incidencia)
+@enduml

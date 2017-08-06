@@ -1,0 +1,7 @@
+@startuml gestionar_paises.png
+left to right direction
+:Administrador: -- (CU-17\nAlta Paises) 
+:Administrador: -- (CU-18\nBaja Paises) 
+:Administrador: -- (CU-19\nModificacion Paises) 
+:Administrador: -- (CU-20\nConsultar Paises)
+@enduml

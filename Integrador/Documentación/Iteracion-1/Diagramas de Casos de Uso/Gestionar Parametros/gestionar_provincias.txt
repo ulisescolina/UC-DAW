@@ -1,0 +1,7 @@
+@startuml gestionar_provincias.png
+left to right direction
+:Administrador: -- (CU-21\nAlta Provincias) 
+:Administrador: -- (CU-22\nBaja Provincias) 
+:Administrador: -- (CU-23\nModificacion Provincias) 
+:Administrador: -- (CU-24\nConsultar Provincias)
+@enduml

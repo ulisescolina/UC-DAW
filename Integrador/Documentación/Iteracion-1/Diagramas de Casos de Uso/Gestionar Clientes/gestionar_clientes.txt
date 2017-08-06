@@ -1,0 +1,6 @@
+@startuml gestionar_clientes.png 
+:Administrador: - (CU-53\nAlta clientes) 
+:Administrador: - (CU-54\nBaja clientes) 
+:Administrador: - (CU-55\nModificacion clientes) 
+:Administrador: - (CU-56\nConsultar clientes)
+@enduml
