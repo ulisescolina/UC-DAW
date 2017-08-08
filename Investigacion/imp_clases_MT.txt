@@ -1,0 +1,15 @@
+@startuml imp_clases_mt.png
+class Persona {
+  - nombre: String
+  - edad: int
+  - energia: int
+  + comer(): void
+}
+
+class Alumno extends Persona {
+  - grado: int
+  - materiasAprobadas: int
+  + aprueba(): void
+  + pasaGrado(): void
+}
+@enduml
