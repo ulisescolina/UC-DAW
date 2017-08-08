@@ -1,0 +1,3 @@
+@startuml modulo_tecnicos.png
+:Administrador: - (Gestionar\nTecnicos)
+@enduml

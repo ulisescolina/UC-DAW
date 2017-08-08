@@ -1,0 +1,4 @@
+@startuml modulo_equipos.png
+:Administrador: - (Gestionar\nEquipos)
+:Administrador: - (Obtener\nEstadisticas de\nFallos)
+@enduml
