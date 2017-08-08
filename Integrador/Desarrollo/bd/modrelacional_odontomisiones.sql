@@ -10,6 +10,10 @@ CREATE TABLE public.par_nivelesurgencias (
 
 ALTER SEQUENCE public.par_nivelesurgencias_id_nivelurgencia_seq OWNED BY public.par_nivelesurgencias.id_nivelurgencia;
 
+CREATE UNIQUE INDEX par_nivelesurgencias_idx
+ ON public.par_nivelesurgencias
+ ( nombre );
+
 CREATE SEQUENCE public.par_tipostelefonos_id_tipotelefono_seq;
 
 CREATE TABLE public.par_tipostelefonos (
@@ -20,6 +24,10 @@ CREATE TABLE public.par_tipostelefonos (
 
 
 ALTER SEQUENCE public.par_tipostelefonos_id_tipotelefono_seq OWNED BY public.par_tipostelefonos.id_tipotelefono;
+
+CREATE UNIQUE INDEX par_tipostelefonos_idx
+ ON public.par_tipostelefonos
+ ( nombre );
 
 CREATE SEQUENCE public.par_disponibilidadescredicticias_id_disponibilidadcredictici90;
 
@@ -33,6 +41,10 @@ CREATE TABLE public.par_disponibilidadescredicticias (
 
 ALTER SEQUENCE public.par_disponibilidadescredicticias_id_disponibilidadcredictici90 OWNED BY public.par_disponibilidadescredicticias.id_disponibilidadcredicticia;
 
+CREATE UNIQUE INDEX par_disponibilidadescredicticias_idx
+ ON public.par_disponibilidadescredicticias
+ ( nombre );
+
 CREATE SEQUENCE public.par_estadosequipos_id_estadoequipo_seq;
 
 CREATE TABLE public.par_estadosequipos (
@@ -45,6 +57,10 @@ CREATE TABLE public.par_estadosequipos (
 
 ALTER SEQUENCE public.par_estadosequipos_id_estadoequipo_seq OWNED BY public.par_estadosequipos.id_estadoequipo;
 
+CREATE UNIQUE INDEX par_estadosequipos_idx
+ ON public.par_estadosequipos
+ ( nombre );
+
 CREATE SEQUENCE public.par_tiposincidencias_id_tipoincidencia_seq;
 
 CREATE TABLE public.par_tiposincidencias (
@@ -55,6 +71,10 @@ CREATE TABLE public.par_tiposincidencias (
 
 
 ALTER SEQUENCE public.par_tiposincidencias_id_tipoincidencia_seq OWNED BY public.par_tiposincidencias.id_tipoincidencia;
+
+CREATE UNIQUE INDEX par_tiposincidencias_idx
+ ON public.par_tiposincidencias
+ ( nombre );
 
 CREATE SEQUENCE public.par_estadosincidencias_id_estadoincidencia_seq;
 
@@ -68,6 +88,10 @@ CREATE TABLE public.par_estadosincidencias (
 
 ALTER SEQUENCE public.par_estadosincidencias_id_estadoincidencia_seq OWNED BY public.par_estadosincidencias.id_estadoincidencia;
 
+CREATE UNIQUE INDEX par_estadosincidencias_idx
+ ON public.par_estadosincidencias
+ ( nombre );
+
 CREATE SEQUENCE public.par_tiposdocumentos_id_tipodocumento_seq;
 
 CREATE TABLE public.par_tiposdocumentos (
@@ -80,6 +104,10 @@ CREATE TABLE public.par_tiposdocumentos (
 
 ALTER SEQUENCE public.par_tiposdocumentos_id_tipodocumento_seq OWNED BY public.par_tiposdocumentos.id_tipodocumento;
 
+CREATE UNIQUE INDEX par_tiposdocumentos_idx
+ ON public.par_tiposdocumentos
+ ( sigla );
+
 CREATE SEQUENCE public.par_marcas_id_marca_seq;
 
 CREATE TABLE public.par_marcas (
@@ -90,6 +118,10 @@ CREATE TABLE public.par_marcas (
 
 
 ALTER SEQUENCE public.par_marcas_id_marca_seq OWNED BY public.par_marcas.id_marca;
+
+CREATE UNIQUE INDEX par_marcas_idx
+ ON public.par_marcas
+ ( nombre );
 
 CREATE SEQUENCE public.par_modelos_id_modelo_seq;
 
@@ -134,6 +166,10 @@ CREATE TABLE public.par_provincias (
 
 ALTER SEQUENCE public.par_provincias_id_provincia_seq OWNED BY public.par_provincias.id_provincia;
 
+CREATE UNIQUE INDEX par_provincias_idx
+ ON public.par_provincias
+ ( nombre, id_pais );
+
 CREATE SEQUENCE public.par_localidades_id_localidad_seq;
 
 CREATE TABLE public.par_localidades (
@@ -146,6 +182,10 @@ CREATE TABLE public.par_localidades (
 
 
 ALTER SEQUENCE public.par_localidades_id_localidad_seq OWNED BY public.par_localidades.id_localidad;
+
+CREATE UNIQUE INDEX par_localidades_idx
+ ON public.par_localidades
+ ( CP, id_provincia );
 
 ALTER TABLE public.par_modelos ADD CONSTRAINT par_marcas_par_modelos_fk
 FOREIGN KEY (id_marca)
