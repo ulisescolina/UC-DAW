@@ -1,0 +1,7 @@
+@startuml gestionar_marcas.png
+left to right direction
+:Administrador: -- (CU-01\nAlta Marca)
+:Administrador: -- (CU-02\nBaja Marca)
+:Administrador: -- (CU-03\nModificacion Marca)
+:Administrador: -- (CU-04\nConsultar Marca)
+@enduml

@@ -1,0 +1,5 @@
+@startuml odontoMisiones-Subsistemas.png
+package odontoMisiones {
+  package "Modulo Parametros"
+}
+@enduml

@@ -1,0 +1,7 @@
+@startuml gestionar_tipos_incidencias.png
+left to right direction
+:Administrador: -- (CU-13\nAlta\nTipos Incidencias) 
+:Administrador: -- (CU-14\nBaja\nTipos Incidencias) 
+:Administrador: -- (CU-15\nModificacion\nTipos Incidencias) 
+:Administrador: -- (CU-16\nConsultar\nTipos Incidencias)
+@enduml

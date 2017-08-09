@@ -1,0 +1,73 @@
+@startuml modelo_conceptual.png 
+
+class Marca {
+  - id_marca: int
+  - nombre: String
+}
+
+class Modelo {
+  - id_modelo: int
+  - nombre: String
+}
+
+class DisponibilidadCredicticia {
+  - id_disponibilidadcredicticia: int
+  - nombre: String
+  - permiteFiar: boolean
+ }
+ 
+class TipoDeIncidencia {
+  - id_tipoincidencia:int
+  - nombre: String
+}
+
+class Pais {
+  - id_pais: int
+  - nombre: String
+}
+
+class Provincia {
+  - id_provincia: int
+  - nombre: String 
+}
+
+class Localidad {
+  - id_localidad: int
+  - nombre: String
+  - CP: String
+}
+
+class TipoDocumento {
+  - id_tipodocumento: int
+  - nombre: String
+  - sigla: String
+}
+
+class TipoTelefono {
+  - id_tipotelefono: int
+  - nombre: String
+}
+
+class EstadoEquipo {
+  - id_estadoequipo: int
+  - nombre: String
+  - descripcion: String
+}
+
+class EstadoIncidencia {
+  - id_estadoincidencia: int
+  - nombre: String
+  - descripcion: String
+}
+
+class NivelUrgencia {
+  - id_nivelurgencia:int
+  - nombre: String
+}
+
+Marca "1" -- "0..*" Modelo
+
+Pais "1" -- "0..*" Provincia
+Provincia "1" -- "0..*" Localidad
+
+@enduml

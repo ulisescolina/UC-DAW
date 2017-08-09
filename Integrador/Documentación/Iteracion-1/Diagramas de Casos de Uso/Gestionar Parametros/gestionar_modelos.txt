@@ -1,0 +1,7 @@
+@startuml gestionar_modelos.png
+left to right direction
+:Administrador: -- (CU-05\nAlta Modelos)
+:Administrador: -- (CU-06\nBaja Modelos)
+:Administrador: -- (CU-07\nModificacion Modelos)
+:Administrador: -- (CU-08\nConsultar Modelos)
+@enduml

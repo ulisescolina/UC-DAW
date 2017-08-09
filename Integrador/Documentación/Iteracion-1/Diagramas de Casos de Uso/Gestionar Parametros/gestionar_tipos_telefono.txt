@@ -1,0 +1,7 @@
+@startuml gestionar_tipos_telefono.png
+left to right direction
+:Administrador: -- (CU-33\nAlta\nTipos Telefono)
+:Administrador: -- (CU-34\nBaja\nTipos Telefono)
+:Administrador: -- (CU-35\nModificacion\nTipos Telefono)
+:Administrador: -- (CU-36\nConsultar\nTipos Telefono)
+@enduml

@@ -1,0 +1,6 @@
+@startuml gestionar_tecnicos.png 
+:Administrador: - (CU-49\nAlta Tecnicos) 
+:Administrador: - (CU-50\nBaja Tecnicos) 
+:Administrador: - (CU-51\nModificacion Tecnicos) 
+:Administrador: - (CU-52\nConsultar Tecnicos)
+@enduml

@@ -1,0 +1,7 @@
+@startuml gestionar_localidades.png 
+left to right direction
+:Administrador: -- (CU-25\nAlta Localidades) 
+:Administrador: -- (CU-26\nBaja Localidades) 
+:Administrador: -- (CU-27\nModificacion Localidades) 
+:Administrador: -- (CU-28\nConsultar Localidades)
+@enduml

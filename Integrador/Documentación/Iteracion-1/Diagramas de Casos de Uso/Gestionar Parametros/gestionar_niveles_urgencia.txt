@@ -1,0 +1,7 @@
+@startuml gestionar_niveles_urgencia.png
+left to right direction
+:Administrador: -- (CU-45\nAlta\nNiveles Urgencia)
+:Administrador: -- (CU-46\nBaja\nNiveles Urgencia)
+:Administrador: -- (CU-47\nModificacion\nNiveles Urgencia)
+:Administrador: -- (CU-48\nConsultar\nNiveles Urgencia)
+@enduml
