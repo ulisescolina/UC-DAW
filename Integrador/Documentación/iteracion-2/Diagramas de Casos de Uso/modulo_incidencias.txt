@@ -1,4 +1,0 @@
-@startuml modulo_incidencias.png
-:Administrador: - (Gestionar\nIncidencias)
-:Administrador: - (Asignar Tareas\na Tecnico)
-@enduml

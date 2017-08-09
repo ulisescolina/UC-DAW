@@ -1,3 +1,0 @@
-@startuml modulo_partes.png
-:Administrador: - (Gestionar\nPartes)
-@enduml

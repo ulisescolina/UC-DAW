@@ -1,4 +1,0 @@
-@startuml modulo_cliente.png
-
-:Administrador: - (Gestionar\nClientes)
-@enduml
